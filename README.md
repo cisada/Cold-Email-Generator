@@ -4,6 +4,10 @@
 
 This project is a **Cold Email Generator** designed to automate the process of creating personalized cold emails based on job postings. Leveraging the power of **Llama 3.1** for fast and efficient email generation, this tool extracts relevant skills and requirements from job postings, generates tailored emails, and streamlines the job application process. The project integrates **ChromaDB** for data storage, **Web Loader** for web scraping, and **Streamlit** for a user-friendly interface.
 
+##DIAGRAM
+![image](https://github.com/user-attachments/assets/f15e2e38-9250-4f65-bd65-e5be3b9372f4)
+
+
 ## Features
 
 - **Automated Email Generation**: Generate personalized cold emails based on job post skills and requirements.
