@@ -22,14 +22,8 @@ This project is a **Cold Email Generator** designed to automate the process of c
 
 ## Technologies Used
 
-- **Llama 3.1**
-- **ChromaDB**
-- **Python**
-- **Web Loader**
-- **Prompt Extract**
-- **Streamlit**
-- **Gen AI**
-  
+ **Llama 3.1** ,  **ChromaDB** ,  **Python** ,  **Web Loader**,  **Prompt Extract**,  **Streamlit**,  **Gen AI**
+ 
 ## Installation
 
 1. **Clone the Repository**:
@@ -73,19 +67,17 @@ This project is a **Cold Email Generator** designed to automate the process of c
 ```
 cold-email-generator/
 │
-├── tutorial_groq/          # Tutorial files for Groq integration
-├── tutorial_chromadb/      # Tutorial files for ChromaDB integration
-├── email_generator/        # Module for email generation logic
-├── app.py                  # Streamlit application entry point
-├── requirements.txt        # Python dependencies
-├── README.md               # Project documentation
-├── .env                    # Environment variables for API keys
-├── main.py                 # Main script to run the application
-├── chains.py               # Logic for chaining processes (e.g., data extraction, email generation)
-├── portfolio.py            # Web scraping and data extraction logic
-├── utils.py                # Utility functions
-└── resource/               # Resource files
-    └── my_portfolio.csv    # Sample portfolio data for email generation
+├── tutorial_groq/          
+├── tutorial_chromadb/      
+├── email_generator/        
+├── app.py                  
+    ├── .env                    
+    ├── main.py                 
+    ├── chains.py               
+    ├── portfolio.py            
+    ├── utils.py                
+    └── resource/               
+        └── my_portfolio.csv      
 ```
 
 ## Best Practices
@@ -93,17 +85,6 @@ cold-email-generator/
 - **API Key Security**: Always store API keys and sensitive information in a `.env` file and never commit them to version control.
 - **Prompt Templates**: Customize prompt templates in the `templates/` directory to suit different job roles and industries.
 - **Data Privacy**: Ensure that any data scraped or processed complies with privacy laws and regulations.
-
-## Contributing
-
-Contributions are welcome! Please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature/YourFeatureName`).
-3. Commit your changes (`git commit -m 'Add some feature'`).
-4. Push to the branch (`git push origin feature/YourFeatureName`).
-5. Open a pull request.
-
 
 ---
 
